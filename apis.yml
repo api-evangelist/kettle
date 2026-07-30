@@ -1,8 +1,23 @@
 aid: kettle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kettle.png
 name: Kettle
-description: Kettle is a company surfaced as a portfolio company of anthemis, dcvc, homebrew, true-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Kettle is a reinsurance company that uses machine learning to model climate risk, according
+  to the venture portfolio listings of its investors. Its focus is climate and catastrophe risk modeling
+  applied to reinsurance underwriting. Kettle is backed by Anthemis, DCVC, Homebrew and True Ventures, and
+  was surfaced into the API Evangelist network as a portfolio lead. No public developer portal, API
+  documentation, or machine-readable API surface has been verified for this provider yet; this profile
+  remains a stub awaiting a successful enrichment run with network access.
 url: https://raw.githubusercontent.com/api-evangelist/kettle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Reinsurance
+- Climate
+- Climate Risk
+- Risk Modeling
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kettle-domain-security.yml
 - type: Website
   url: https://ourkettle.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
