@@ -49,7 +49,7 @@ tags:
 - Climate
 - Climate Risk
 - Risk Modeling
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Insurance
@@ -58,6 +58,7 @@ tags_raw:
 - Climate Risk
 - Risk Modeling
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
